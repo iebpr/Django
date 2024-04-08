@@ -21,8 +21,7 @@ Django template 작성 시 유용한 확장팩
 ![image](https://github.com/tiblo/Django_edu/assets/34559256/fafe6d22-e38f-48c0-bf76-92cf26213fc2)
 
 VSCode의 setting.json에서
-> setting.json 여는 방법 : 파일 > 기본설정 > 설정<br>
--> 설정 검색에 'setting'을 입력<br>
+> setting.json 여는 방법 : 파일 > 기본설정 > 설정-> 설정 검색에 'setting'을 입력<br>
 아무 항목에서 'setting.json에서 편집'을 선택<br>
 "emmet.includeLanguages": {
         "django-html": "html"
