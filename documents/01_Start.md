@@ -92,7 +92,7 @@ py manage.py startapp myapp
 > D:\Django-work\myproject\myapp\views.py <br>
 > D:\Django-work\myproject\myapp\migration\__init__.py <br>
 
-#### (2) setting.py에 언어와 시간을 한국값으로 변경(project_name/project_name/setting.py)
+#### (2) setting.py에 언어와 시간을 한국값으로 변경(myproject/myproject/setting.py)
 ```
 LANGUAGE_CODE = 'ko-kr'
 TIME_ZONE = 'Asia/Seoul'
@@ -124,6 +124,7 @@ project_name/
 py manage.py runserver
 ```
 > 실행 url : 127.0.0.1:8000<br>
+> http://127.0.0.1:8000/ > mouse > ctrl+click <br>
 > 실행 중지 : ctrl + c
 #### Port 번호 변경
 > Django는 기본 포트번호가 8000으로 지정되어 있음.<br>
