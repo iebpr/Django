@@ -69,9 +69,7 @@ django-admin startproject myproject
 
 ### 4) 앱 생성 및 등록
 하나의 프로젝트에는 하나 이상의 앱이 작성될 수 있음.
-
 앱(app, application)이란 웹을 구성하는 한 부분이라고 생각할 수 있음. 
-
 즉, 한 쇼핑몰 사이트(프로젝트)를 사용자 부분, 판매자 부분, 관리자 부분으로 구분하여 개발할 경우, 각 부분들을 개별 앱으로 작성한다.
 
 #### (1) 앱 생성
@@ -80,7 +78,11 @@ django-admin startproject myproject
 cd myproject
 py manage.py startapp app_name
 ```
-
+```
+cd myproject
+py manage.py startapp myapp
+```
+![image](https://github.com/iebpr/Django/blob/main/image/app_folder.png)
 #### (2) setting.py에 언어와 시간을 한국값으로 변경(project_name/project_name/setting.py)
 ```
 LANGUAGE_CODE = 'ko-kr'
