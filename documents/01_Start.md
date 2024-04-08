@@ -66,6 +66,7 @@ django-admin startproject myproject
 > D:\Django-work\myproject\myproject\settings.py <br>
 > D:\Django-work\myproject\myproject\urls.py <br>
 > D:\Django-work\myproject\myproject\wsgi.py <br>
+
 ### 4) 앱 생성 및 등록
 하나의 프로젝트에는 하나 이상의 앱이 작성될 수 있음.
 
