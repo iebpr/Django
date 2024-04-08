@@ -48,7 +48,7 @@ pip install django
 ```
 pip list
 ```
-또는 '가상환경이름' 폴더의 Lib 폴더 확인
+또는 '가상환경이름' 폴더의 D:\Django-work\myenv\Lib\site-packages 폴더 확인
 > django, Django-x.x.x.dist-info 폴더가 생성되었는지 확인
 ### 3) 프로젝트 생성
 #### (1) 프로젝트 생성
