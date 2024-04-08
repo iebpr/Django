@@ -82,8 +82,15 @@ py manage.py startapp app_name
 cd myproject
 py manage.py startapp myapp
 ```
-![image](https://github.com/iebpr/Django/blob/main/image/app_folder.png)
-![image](https://github.com/iebpr/Django/blob/main/image/app_folder_detail.png)
+> 프로젝트를 생성하면 'project_name' 폴더 'myproject'가 생성되고 그 하위에 'myproject' 폴더와 동일한 이름의 폴더가 하나 더 생성되어 설정관련 파이썬 파일들이 생성된다. 
+ <br>
+> D:\Django-work\myproject\myapp\__init__.py <br>
+> D:\Django-work\myproject\myapp\admin.py <br>
+> D:\Django-work\myproject\myapp\apps.py <br>
+> D:\Django-work\myproject\myapp\models.py <br>
+> D:\Django-work\myproject\myapp\tests.py <br>
+> D:\Django-work\myproject\myapp\views.py <br>
+> D:\Django-work\myproject\myapp\migration\__init__.py <br>
 
 #### (2) setting.py에 언어와 시간을 한국값으로 변경(project_name/project_name/setting.py)
 ```
