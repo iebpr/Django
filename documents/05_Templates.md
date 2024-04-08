@@ -311,7 +311,8 @@ myproject/myproject 폴더의 urls.py에 static url을 작성한다.
 urlpatterns = [
     ...    
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_URL)
-'''
+```
+
 ```python
 from django.conf import settings
 from django.conf.urls.static import static
