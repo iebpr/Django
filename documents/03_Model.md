@@ -179,7 +179,7 @@ Something subject
 Bye~~
 ```
 
-####1. mysite > settings.py > 신규로 생성한 앱 'myapp' 입력
+### 1. mysite > settings.py > 신규로 생성한 앱 'myapp' 입력
 ```
 INSTALLED_APPS = [
     
@@ -195,7 +195,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-####2. models.py 아래 내용 입력
+### 2. models.py 아래 내용 입력
 ```
 from django.db import models
 
