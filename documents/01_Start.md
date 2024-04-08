@@ -53,7 +53,7 @@ pip list
 ### 3) 프로젝트 생성
 #### (1) 프로젝트 생성
 ```
-django-admin startproject 프로젝트_이름름
+django-admin startproject 프로젝트_이름
 ```
 
 ```
