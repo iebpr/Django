@@ -308,6 +308,9 @@ project_name/
 myproject/myproject 폴더의 urls.py에 static url을 작성한다.
 + static(settings.STATIC_URL, document_root=settings.STATIC_URL)
 ```
+from django.conf import settings
+from django.conf.urls.static import static
+
 urlpatterns = [
     ...    
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_URL)
@@ -316,6 +319,8 @@ urlpatterns = [
 ```python
 from django.contrib import admin
 from django.urls import include, path
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('', include('myapp.urls')),
