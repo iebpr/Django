@@ -58,7 +58,7 @@ django-admin startproject project_name
 ```
 django-admin startproject myproject
 ```
-> 프로젝트를 생성하면 'project_name' 폴더 'myproject'가 생성되고 그 하위에 'myproject' 폴더와 동일한 이름의 폴더가 하나 더 생성되어 설정관련 파이썬 파일들이 생성된다.
+> 프로젝트를 생성하면 'project_name' 폴더 'myproject'가 생성되고 그 하위에 'myproject' 폴더와 동일한 이름의 폴더가 하나 더 생성되어 설정관련 파이썬 파일들이 생성된다.<br>
 > D:\Django-work\myproject\manage.py
 > D:\Django-work\myproject\myproject\__init__.py
 > D:\Django-work\myproject\myproject\asgi.py
