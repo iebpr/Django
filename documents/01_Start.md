@@ -36,6 +36,9 @@ py -m venv myenv
 ```
 '가상환경이름'/Scripts/activate
 ```
+```
+myenv/Scripts/activate
+```
 ### 2) Django 설치
 ```
 pip install django
@@ -43,7 +46,7 @@ pip install django
 가상환경에 django가 설치됨<br>
 * 설치 확인
 ```
-pip freeze
+pip list
 ```
 또는 '가상환경이름' 폴더의 Lib 폴더 확인
 > django, Django-x.x.x.dist-info 폴더가 생성되었는지 확인
