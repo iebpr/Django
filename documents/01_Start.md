@@ -52,11 +52,9 @@ pip list
 > django, Django-x.x.x.dist-info 폴더가 생성되었는지 확인
 ### 3) 프로젝트 생성
 #### (1) 프로젝트 생성
-<!--
 ```
-django-admin startproject project_name
+django-admin startproject 프로젝트_이름름
 ```
--->
 
 ```
 django-admin startproject myproject
@@ -79,12 +77,10 @@ django-admin startproject myproject
 
 #### (1) 앱 생성
 > myproject로 경로 이동 후
-<!--
 ```
 cd myproject
-py manage.py startapp app_name
+py manage.py startapp 어플리케이션_이름
 ```
--->
 
 ```
 cd myproject
