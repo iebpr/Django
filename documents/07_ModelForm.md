@@ -70,7 +70,7 @@ widgets = {
 ```
 
 ## 데이터 입력 처리
-### 입력 페이지 작성
+### 입력 페이지(writeForm.html) 작성
 writeForm.html에 \<input\> 대신 form.py에서 작성한 field를 사용한다.
 ```html
 {% extends "master.html" %}
@@ -154,7 +154,7 @@ urlpatterns = [
 ]
 ```
 
-## 데이터 수정 처리
+## 데이터 수정(updateForm.html) 작성 및 처리
 입력 처리와 마찬가지로 HTML 전송 method에 따라 '입력 페이지로의 이동'인지 '데이터의 저장'인지를 구별하여 하나의 메소드로 처리
 * request.method == 'GET' : 수정 페이지로의 이동
 * request.method == 'POST' : 수정 데이터 DB update
