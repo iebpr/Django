@@ -178,6 +178,23 @@ Hi~~
 Something subject
 Bye~~
 ```
+
+#### mysite > settings.py > 신규로 생성한 앱 'myapp' 입력
+```
+INSTALLED_APPS = [
+    
+    // default 
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    
+    'myapp', //  생성한 app 'myapp' 한줄 추가 
+]
+```
+
 #### models.py 아래 내용 입력
 ```
 from django.db import models
