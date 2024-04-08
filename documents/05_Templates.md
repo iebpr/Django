@@ -169,6 +169,14 @@ from django.http import HttpResponse
 from django.template import loader
 import datetime
 
+def index(request):
+    dList = DataTbl.objects.all().order_by('-id').values()
+    template = loader.get_template('index.html')
+    context = {
+        'dList': dList,
+    }
+    return HttpResponse(template.render(context, request))
+
 def testing(request):
     template = loader.get_template('template.html')
     test_list = ('아메리카노','카페라떼','카페모카','카푸치노','녹차')
