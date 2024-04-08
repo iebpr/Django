@@ -359,12 +359,26 @@ def somepage(request):
 ```
 
 ### myapp/urls.py
+> urlpatterns 안에 path('somepage', views.somepage, name='somepage'), 추가
 ```python
 ...
 urlpatterns = [
     ...
     path('somepage', views.somepage, name='somepage'),
 ]
+```
+
+```
+from django.contrib import admin
+from django.urls import include, path
+from django.conf import settings
+from django.conf.urls.static import static
+
+urlpatterns = [
+    path('', include('myapp.urls')),
+    path('admin/', admin.site.urls), # 원래 있는 내용(admin 사이트 url)
+    path('somepage', views.somepage, name='somepage'),
+] + static(settings.STATIC_URL, document_root=settings.STATIC_URL)
 ```
 
 ### static/css/mystyle.css
