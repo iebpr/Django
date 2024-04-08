@@ -9,6 +9,10 @@
 * Python Extension
 * Django Extension
 
+# VB Code 작업 폴더 생성
+1. D 드라이브 Django-work 폴더 생성
+2. Django-work 폴더로 이동
+
 ---
 # Django 프로젝트 생성 단계
 ## 1. Django 가상환경 생성
