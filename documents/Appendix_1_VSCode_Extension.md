@@ -33,4 +33,6 @@ VSCode의 setting.json에서
     "auto-close-tag.activationOnLanguage": ["*"]
 }
 ```
+## Exploler Campact Folders
+> setting > 'compact' 으로 검색 > Exploler Campact Folders 체크 해
 
