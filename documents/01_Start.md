@@ -5,7 +5,7 @@
 > vscode이 콘솔에서 python을 입력.<br>
 > Microsoft Store를 통해 설치하면 vscode에서 바로 사용 가능
 
-3. vscode 확장(Extension) 
+3. vscode 확장(Extension) - 아래 Appendix_1_VSCode_Extension.md 참고
 * Python Extension
 * Django Extension
 
