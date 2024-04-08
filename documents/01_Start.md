@@ -83,6 +83,8 @@ cd myproject
 py manage.py startapp myapp
 ```
 ![image](https://github.com/iebpr/Django/blob/main/image/app_folder.png)
+![image](https://github.com/iebpr/Django/blob/main/image/app_folder_detail.png)
+
 #### (2) setting.py에 언어와 시간을 한국값으로 변경(project_name/project_name/setting.py)
 ```
 LANGUAGE_CODE = 'ko-kr'
